@@ -3,7 +3,7 @@ const startDate = new Date(); // Today's date
 const endDate = new Date(startDate);
 endDate.setDate(startDate.getDate() + 13); // Two weeks from now
 
-fetch('{{ site.baseurl }}/assets/data/schedule.json')
+fetch('/hacky-hours/assets/data/schedule.json')
   .then(response => response.json())
   .then(data => {
     const tbody = calendarContainer.querySelector('tbody');
