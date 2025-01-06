@@ -1,0 +1,28 @@
+[ 
+ 
+ 
+{ 
+"title"    : "schedule", 
+"desc"     : "schedule", 
+"category" : "page", 
+"url"      : "/cal/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Hacky Hours", 
+"desc"     : "Hacky Hours", 
+"category" : "page", 
+"url"      : "/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Tag Index", 
+"desc"     : "Tag Index", 
+"category" : "page", 
+"url"      : "/tags/", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]
