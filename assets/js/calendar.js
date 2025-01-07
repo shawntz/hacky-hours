@@ -36,7 +36,10 @@ fetch('/hacky-hours/assets/data/schedule.json')
       events.forEach(event => {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event';
-        eventDiv.innerHTML = `${event.time}<br><strong>${event.description}</strong><br><a href="${event.zoom}" target="_blank">(Zoom Link)</a>`;
+
+        // Conditionally include the Zoom link only if event.zoom is not an empty string
+        let zoomLink = event.zoom ? `<br><a href="${event.zoom}" target="_blank">(Zoom Link)</a>` : '';
+        eventDiv.innerHTML = `${event.time}<br><strong>${event.description}</strong>${zoomLink}`;
         cell.appendChild(eventDiv);
       });
 
