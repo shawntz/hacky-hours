@@ -1,22 +1,20 @@
 [
   {
-    "date": "2025-01-06",
-    "time": "10:00 AM - 12:00 PM",
-    "description": "Group Hacky Hours"
-  },
-  {
     "date": "2025-01-08",
-    "time": "2:00 PM - 4:00 PM",
-    "description": "Group Hacky Hours"
-  },
-  {
-    "date": "2025-01-10",
-    "time": "1:00 PM - 3:00 PM",
-    "description": "Group Hacky Hours"
+    "time": "1-5p",
+    "description": "Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/91881614704?pwd=1q19qv0NmzPn7aDkxOk46fX4ZCwe0J.1"
   },
   {
     "date": "2025-01-09",
-    "time": "1:00 PM - 3:00 PM",
-    "description": "1:1 Stats Appointments"
+    "time": "1-4p",
+    "description": "1:1 Private Appointments",
+    "zoom": ""
+  },
+  {
+    "date": "2025-01-10",
+    "time": "9-12p",
+    "description": "Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/94645688738?pwd=VYbQKjLTptTakEbPnViwgOQ55ZbmcC.1"
   }
 ]

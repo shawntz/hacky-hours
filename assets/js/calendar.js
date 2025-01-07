@@ -36,7 +36,7 @@ fetch('/hacky-hours/assets/data/schedule.json')
       events.forEach(event => {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event';
-        eventDiv.innerHTML = `${event.time}<br><strong>${event.description}</strong>`;
+        eventDiv.innerHTML = `${event.time}<br><strong>${event.description}</strong><br><a href="${event.zoom}" target="_blank">(Zoom Link)</a>`;
         cell.appendChild(eventDiv);
       });
 
