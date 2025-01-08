@@ -1,11 +1,5 @@
 [
   {
-    "date": "2025-01-08",
-    "time": "1-5p",
-    "description": "Group Hacky Hours",
-    "zoom": "https://stanford.zoom.us/j/91881614704?pwd=1q19qv0NmzPn7aDkxOk46fX4ZCwe0J.1"
-  },
-  {
     "date": "2025-01-09",
     "time": "1-4p",
     "description": "1:1 Private<br>Appointments",
@@ -16,5 +10,29 @@
     "time": "9-12p",
     "description": "Group Hacky Hours",
     "zoom": "https://stanford.zoom.us/j/94645688738?pwd=VYbQKjLTptTakEbPnViwgOQ55ZbmcC.1"
-  }
+  },
+  {
+    "date": "2025-01-13",
+    "time": "1-5p",
+    "description": "Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/91881614704?pwd=1q19qv0NmzPn7aDkxOk46fX4ZCwe0J.1"
+  },
+  {
+    "date": "2025-01-15",
+    "time": "1-5p",
+    "description": "Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/96407968979?pwd=NFeSzeNEeGcfQgfIM33RilLLVcBzbh.1"
+  },
+  {
+    "date": "2025-01-16",
+    "time": "Shawn OOO",
+    "description": "<s>1:1 Private<br>Appointments</s>",
+    "zoom": ""
+  },
+  {
+    "date": "2025-01-15",
+    "time": "9-11a",
+    "description": "Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/99006781482?pwd=Zm93FerRxYFZzDkaJ9fUJplrsJ9oLC.1"
+  },
 ]
