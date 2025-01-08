@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Office Hours Calendar</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/calendar.css">
+<!--   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/calendar.css"> -->
+  <link href="{{ site.baseurl }}/assets/css/calendar.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}" rel="stylesheet">
 </head>
 <body>
   <div id="calendar-container">
@@ -23,6 +24,7 @@
       </tbody>
     </table>
   </div>
-  <script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
+<!--   <script src="{{ site.baseurl }}/assets/js/calendar.js"></script> -->
+  <script src="{{ site.baseurl }}/assets/js/calendar.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 </body>
 </html>
