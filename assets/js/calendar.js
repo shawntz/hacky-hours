@@ -1,5 +1,5 @@
 const calendarContainer = document.getElementById('calendar');
-const startDate = new Date(); // Today's date
+const startDate = new Date(2025, 1, 6); // First day of the winter quarter
 const endDate = new Date(startDate);
 endDate.setDate(startDate.getDate() + 13); // Two weeks from now
 
