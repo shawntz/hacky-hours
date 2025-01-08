@@ -1,5 +1,5 @@
 const calendarContainer = document.getElementById('calendar');
-const startDate = new Date("2025-01-06"); // First cell of the calendar
+const startDate = new Date("2025-01-05"); // First cell of the calendar (make it a Sunday even though Monday is the first day shown)
 const endDate = new Date(startDate);
 endDate.setDate(startDate.getDate() + 13); // Two weeks from now
 
