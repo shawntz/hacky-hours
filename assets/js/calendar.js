@@ -50,6 +50,18 @@ fetch(`/hacky-hours/assets/data/schedule.json?v=${timestamp}`)
         // Conditionally include the Zoom link only if event.zoom is not an empty string
         let zoomLink = event.zoom ? `<br><a href="${event.zoom}" target="_blank">(Zoom Link)</a>` : '';
         eventDiv.innerHTML = `${event.time}<br><strong>${event.description}</strong>${zoomLink}`;
+
+        // Check if the event date and time have passed
+        const now = new Date(); // Current date and time
+        const eventDateTime = new Date(`${event.date}T${event.time.split(' ')[0]}:00`); // Combine date and time
+
+        if (eventDateTime < now) {
+          eventDiv.style.backgroundColor = '#cfcdcc';
+          eventDiv.style.border = '1px solid #cfcdcc';
+          eventDiv.style.color = '#878787';
+          eventDiv.style.fontWeight = '100';
+        }
+        
         cell.appendChild(eventDiv);
       });
 
