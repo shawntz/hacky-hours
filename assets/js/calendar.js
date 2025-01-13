@@ -53,9 +53,11 @@ fetch(`/hacky-hours/assets/data/schedule.json?v=${timestamp}`)
 
         // Check if the event date and time have passed
         const now = new Date(); // Current date and time
-        const eventDateTime = new Date(`${event.date}T${event.time.split(' ')[0]}:00`); // Combine date and time
+        const nowFormattedDate = formatDateLocal(now);
 
-        if (eventDateTime < now) {
+        console.log(formattedDate < nowFormattedDate);
+        
+        if (formattedDate < nowFormattedDate) {
           eventDiv.style.backgroundColor = '#cfcdcc';
           eventDiv.style.border = '1px solid #cfcdcc';
           eventDiv.style.color = '#878787';
