@@ -4,7 +4,21 @@ title: Hacky Hours
 subtitle: A New Resource for Stanford Psych Affiliates
 ---
 
+# Current Schedule
 {% include calendar.html %}
+
+## Past Schedules
+<div class="container mt-5">
+    <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapsibleTable" aria-expanded="false" aria-controls="collapsibleTable">
+        <i class="fas fa-trash-alt"></i> January 2025
+    </button>
+</div>
+
+<div class="collapse mt-3" id="collapsibleTable">
+    <div class="card card-body">
+        {% include calendar.html %}
+    </div>
+</div>
 <center><p><em>Note: </em>To access <strong>Group Hacky Hours</strong>, you must be signed into your Stanford Zoom!</p></center>
 
 <img src="{{ site.baseurl }}/assets/img/Hacky-Hours-Ad.jpg" width="100%"/></img>
