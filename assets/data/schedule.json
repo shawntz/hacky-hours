@@ -76,5 +76,29 @@
     "time": "9:30a-12:30p",
     "description":"Group Hacky Hours",
     "zoom": "https://stanford.zoom.us/j/92742695130?pwd=VIMy46Vvdy2KTyW4iS0OLyBO39oKsA.1"
+  },
+  {
+    "date": "2025-02-26",
+    "time": "8:30-9:30a",
+    "description":"1:1 Private<br>Appointment",
+    "zoom": ""
+  },
+  {
+    "date": "2025-02-27",
+    "time": "11a-2p",
+    "description":"Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/92742695130?pwd=VIMy46Vvdy2KTyW4iS0OLyBO39oKsA.1"
+  },
+  {
+    "date": "2025-02-27",
+    "time": "2-3p",
+    "description":"1:1 Private<br>Appointment",
+    "zoom": ""
+  },
+  {
+    "date": "2025-02-28",
+    "time": "8-11a",
+    "description":"Group Hacky Hours",
+    "zoom": "https://stanford.zoom.us/j/92742695130?pwd=VIMy46Vvdy2KTyW4iS0OLyBO39oKsA.1"
   }
 ]
