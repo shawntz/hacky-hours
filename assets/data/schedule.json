@@ -91,7 +91,13 @@
   },
   {
     "date": "2025-05-09",
-    "time": "9:30a-12:30p",
+    "time": "9:30-10:30a",
+    "description": "Private 1:1 Appointment",
+    "zoom": ""
+  },
+  {
+    "date": "2025-05-09",
+    "time": "10:30a-12:30p",
     "description": "Group Hacky Hours",
     "zoom": "https://stanford.zoom.us/j/96407968979?pwd=NFeSzeNEeGcfQgfIM33RilLLVcBzbh.1"
   }
